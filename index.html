@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
@@ -14,6 +13,13 @@
 <body>
   
   <div class="container">
+
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+    </div>
+    
     <header>
       <div class="img-wrapper">
         <img src="./imagens/bg0.jpg" alt="">
@@ -23,10 +29,25 @@
         <p>Alex Flores</p>
         <button>Saiba mais</button>
       </div>
-      
     </header>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+  <div class="sidebar">
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="far fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
