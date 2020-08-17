@@ -2,6 +2,9 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,7 @@
 
 :root {
   --font-primary: "Segoe UI", Roboto;
-  --font-secundary: "Josefin slab", serif; 
+  --font-secundary: "Bangers", cursive; 
   --font-action: "Muli", serif;
 }
 
@@ -198,4 +201,98 @@
 .social-media a:hover{
   background-color: #17e827;
   transition: background-color 1s;
+}
+
+
+
+.container-conhecimentos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px 150px 50px 50px ;
+  flex-wrap: wrap;
+}
+
+.img-conhecimento img {
+  max-width: 600px;
+}
+
+.skills-titulo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-secundary);
+  font-size: 2rem;
+  color: #555;
+  letter-spacing: 2px;
+  border-bottom: solid 3px #38ef7d;
+}
+
+.skills i{
+  font-size: 40px;
+  margin: 0 0 0 10px ;
+  color: #555;
+}
+
+.skills i:hover {
+  color: #38ef7d;
+}
+
+.faculdade {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px ;
+}
+
+.faculdade img {
+    max-width: 120px;
+}
+
+.projetos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sessao-header {
+  display: flex;
+  padding-left: 10rem;
+  font-family: var(--font-secundary);
+  color: #555;
+  font-size: 2rem;
+
+}
+
+.sessao-header h1 {
+  border-bottom: solid 3px #38ef7d;
+  margin-bottom: 1.5rem;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.card {
+  width: 20rem;
+  height: 30rem;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: .5rem;
 }

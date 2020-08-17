@@ -1,53 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <title>Portfolio</title>
-</head>
-<body>
-  
-  <div class="container">
-
-    <div class="hamburguer">
-      <div class="line" id="line1"></div>
-      <div class="line" id="line2"></div>
-      <div class="line" id="line3"></div>
-    </div>
-    
-    <header>
-      <div class="img-wrapper">
-        <img src="./imagens/bg0.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="imagens/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imagens/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imagens/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
       </div>
-      <div class="banner">
-        <h1>Desenvolvedor Full-Stack</h1>
-        <p>Alex Flores</p>
-        <button>Saiba mais</button>
-      </div>
-    </header>
-  </div>
 
-  <div class="sidebar">
-    <nav>
-      <ul class="menu">
-        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-      </ul>
-    </nav>
-    <div class="social-media">
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="far fa-envelope"></i></a>
+      <header>
+        <div class="img-wrapper">
+          <img src="./imagens/bg0.jpg" alt="" />
+        </div>
+        <div class="banner">
+          <h1>Desenvolvedor Full-Stack</h1>
+          <p>Alex Flores</p>
+          <button>Saiba mais</button>
+        </div>
+      </header>
     </div>
-  </div>
 
-  <script src="script.js"></script>
-</body>
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Conhecimento</a>
+          </li>
+          <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos">
+      <div class="container-conhecimentos">
+        <div class="img-conhecimento">
+          <img src="./imagens/skills.jpg" alt="Skills" />
+        </div>
+        <div class="skills">
+          <div class="skills-titulo">
+            <h1>Abilidades</h1>
+          </div>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node-js"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-github-alt"></i>
+          <div class="faculdade">
+            <img src="./imagens/analise.png" alt="ADS" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessao-projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="/imagens/proj1.jpg" alt="projeto1" />
+          </div>
+          <div class="card-info">
+            <h2>ToDO List</h2>
+            <h3>Javascript</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              facilis non natus nostrum aliquam, iste architecto quas dolorem
+              praesentium sapiente adipisci ullam ab tempora magni inventore
+              voluptate corrupti voluptatum totam.
+            </p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="/imagens/proj2.jpg" alt="projeto2" />
+          </div>
+          <div class="card-info">
+            <h2>ToDO List</h2>
+            <h3>Javascript</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              facilis non natus nostrum aliquam, iste architecto quas dolorem
+              praesentium sapiente adipisci ullam ab tempora magni inventore
+              voluptate corrupti voluptatum totam.
+            </p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="/imagens/proj3.jpg" alt="projeto3" />
+          </div>
+          <div class="card-info">
+            <h2>ToDO List</h2>
+            <h3>Javascript</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              facilis non natus nostrum aliquam, iste architecto quas dolorem
+              praesentium sapiente adipisci ullam ab tempora magni inventore
+              voluptate corrupti voluptatum totam.
+            </p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
